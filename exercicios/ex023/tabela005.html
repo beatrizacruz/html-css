@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 600px;
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            text-decoration: bold;
+        }
+      
+        .nome {
+           background-color: azure; 
+        }
+
+        .sexo {
+            background-color: aqua;
+        }
+
+        .idade {
+            background-color: aliceblue;
+        }
+
+        .profissao {
+            background-color: aquamarine;
+        }
+
+    </style>    
+</head>
+<body>
+    
+   <table>
+        <colgroup>
+           <col class="nome">
+           <col class="sexo">
+           <col class="idade">
+           <col class="profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+           <th scope="col">Nome</th>  
+           <th scope="col">Sexo</th>
+           <th scope="col">Idade</th>
+           <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Gabão</td>
+            <td>M</td>
+            <td>24</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Thayná</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Hygor</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>João Lucas</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+   </table> 
+</body>
+</html>
